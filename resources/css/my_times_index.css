@@ -4,6 +4,7 @@ header {
   height: 75px;
   z-index: 2;
 }
+
 header span {
   font-family: verdana;
   font-size: 14px;
@@ -12,12 +13,15 @@ header span {
   position: relative;
   top: 23px;
 }
+
 header a {
   color: black;
 }
+
 header p {
   color: mediumaquamarine;
 }
+
 .big_container {
   display: flex;
   position: relative;
@@ -28,29 +32,44 @@ header p {
   background-color: white;
   border-bottom: 2px solid black;
 }
+
 .container {
   height: 75px;
   width: 100%;
   display: flex;
 }
+
 .box {
   height: 75px;
-  width: 100px;
+  width: 75px;
   display: inline-block;
   text-align: center;
 }
+
+.box_2 {
+  height: 75px;
+  width: 60px;
+  display: inline-block;
+  text-align: center;
+}
+
 #flexstart {
   display:flex;
 	justify-content: flex-start;
 }
+
 #flexend {
 	display: flex;
   justify-content: flex-end;
+  position: absolute;
+  right: 20px;
 }
+
 #space_between {
   display: flex;
   justify-content: space-between;
 }
+
 .column {
   display: flex;
   flex-direction: row;
@@ -59,50 +78,99 @@ header p {
   top: 70px;
   z-index: 1;
 }
+
 .column p {
   font-family: georgia;
   font-size: 17px;
   color: black;
 }
-.column .caption {
+
+#caption {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display: inline-block;
 }
+
 .column .large {
   width: 630px;
   display: inline-flex;
   flex-direction: column;
 }
+
 .column .medium {
   width: 300px;
   display: inline-flex;
   flex-direction: column;
 }
+
 .column .small {
   width: 240px;
   display: inline-flex;
   flex-direction: column;
 }
-.articles_items {
-  border: 2px solid black;
-}
+
 footer {
   height: 325px;
   width: 100%;
   position: absolute;
   top: 880px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: mediumaquamarine;
 }
+
 footer span {
   display: inline-block;
+  position: relative;
+  top: 20px;
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 16px;
 }
+
+footer .logo, footer .hyperlinks {
+  justify-content: center;
+  color: white;
+}
+
+footer .hyperlinks {
+  display: block;
+}
+
+footer .copyright {
+  display: inline-block;
+  width: 100%;
+  justify-content: center;
+}
+
+footer a {
+ color: black;
+}
+
+footer .logo {
+  border-right: 5px solid white;
+}
+
+footer .footer_container {
+  display: flex;
+  width: 100%;
+}
+
+#cat {
+  background-image: url("../resources/images/img-myt-logo.jpg");
+}
+
 #tuna_steak {
-  display: inline-flex;
-  background-image: url("../resources/images/img-story-main.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
-
-
-
-ADD A SCROLL SO THAT YOU CAN HAVE THE FOOTER AT AN ABSOLUTE POINT!!
