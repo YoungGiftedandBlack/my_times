@@ -46,12 +46,42 @@ header p {
 	display: flex;
   justify-content: flex-end;
 }
-.column.large {
+#space_between {
+  display: flex;
+  justify-content: space-between;
+}
+.column {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: green;
+}
+.column p {
+  font-family: georgia;
+  font-size: 17px;
+  color: black;
+}
+.column .caption {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.column .large {
   width: 630px;
+  display: inline-flex;
+  flex-direction: column;
 }
-.column.medium {
+.column .medium {
   width: 300px;
+  display: inline-flex;
+  flex-direction: column;
 }
-.column.small {
+.column .small {
   width: 240px;
+  display: inline-flex;
+  flex-direction: column;
+}
+.articles_items {
+  border: 2px solid black;
 }
