@@ -1,0 +1,20 @@
+p {
+
+}
+h1 {
+
+}
+h2 {
+
+}
+.header {
+  display: flex;
+  position: fixed;
+}
+.header_fonts {
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex: inline-block;
+}
