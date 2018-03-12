@@ -4,18 +4,41 @@ header a, header p {
   font-size: 14px;
   font-weight: bold;
   display: inline-block;
+  border: 1px solid purple;
 }
 header a {
   color: black;
-
 }
 header p {
   color: mediumaquamarine;
 }
-header {
+.container {
+  height: 150px;
   width: 100%;
-  position: fixed;
   display: flex;
-  height: 80px;
-  align-items: center;
+  background-color: whitesmoke;
+}
+.box {
+  height: 75px;
+  width: 100px;
+  background-color: dodgerblue;
+  border: 1px solid lightgrey;
+  display: inline-block;
+}
+#flexstart {
+  display:flex;
+	justify-content: flex-start;
+}
+#flexend {
+	display: flex;
+  justify-content: flex-end;
+}
+.column.large {
+  width: 630px;
+}
+.column.medium {
+  width: 300px;
+}
+.column.small {
+  width: 240px;
 }
