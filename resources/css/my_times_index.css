@@ -1,20 +1,21 @@
-p {
 
-}
-h1 {
-
-}
-h2 {
-
-}
-.header {
-  display: flex;
-  position: fixed;
-}
-.header_fonts {
+header a, header p {
   font-family: verdana;
   font-size: 14px;
   font-weight: bold;
+  display: inline-block;
+}
+header a {
+  color: black;
+
+}
+header p {
+  color: mediumaquamarine;
+}
+header {
+  width: 100%;
+  position: fixed;
   display: flex;
-  flex: inline-block;
+  height: 80px;
+  align-items: center;
 }
