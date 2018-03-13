@@ -5,8 +5,8 @@ header span {
   font-weight: bold;
   display: inline-block;
   flex-grow: 1;
-  margin: 0;
-  border: 0;
+  margin: 0px;
+  border: 0px;
 }
 header a {
   margin: 0px;
@@ -14,7 +14,7 @@ header a {
   border: 0px;
   color: black;
 }
-body .article_text span {
+body .article_text span .caption{
 
 }
 
@@ -27,6 +27,7 @@ body .article_text span {
 body {
   padding: 0px;
   margin: 0px;
+  overflow-x: scroll;
 }
 /*body css ends here*/
 /*header css starts here*/
@@ -34,18 +35,28 @@ body {
   position: fixed;
   width: 100%;
   height: 80px;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   z-index: 2;
   display: flex;
   background-color: white;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 .container {
   display: flex;
   align-items: center;
 }
 /*header css ends here*/
+/*nav css starts here*/
+nav {
+  padding: 0px;
+  margin: 0px;
+  justify-content: flex-end;
+  width: 85%;
+  display: flex;
+  align-items: center;
+}
+/*nav css ends here*/
 /*article css starts here*/
 .page {
   display: flex;
@@ -61,30 +72,49 @@ display: flex;
 flex-direction: column;
 }
 .medium {
-  width: 350px;
+  width: 300px;
   display: flex;
   flex-direction: column;
 }
 .small {
-  width: 200px;
+  width: 240px;
   display: flex;
   flex-direction: column;
 }
 .article_text {
   border: 2px solid black;
 }
-/*article css ends here*/
-/*nav css starts here*/
-nav {
-  width: 500px;
-  position: relative;
-  right: 0px;
+#phishy {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  background-image: url("../../resources/images/img-story-main.png");
 }
-/*nav css ends here*/
+#backwards {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../resources/images/img-story-2.png");
+}
+#cameras {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../resources/images/img-story-3.png");
+}
+#cats {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../resources/images/img-story-1.png");
+}
+/*article css ends here*/
 /*footer css starts here*/
 footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+  top: 880px;
 }
 /*footer css ends here*/
