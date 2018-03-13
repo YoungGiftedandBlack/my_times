@@ -3,6 +3,8 @@ header {
   width: 100%;
   height: 75px;
   z-index: 2;
+  background-color: white;
+  border-bottom: 2px solid black;
 }
 
 header span {
@@ -11,7 +13,7 @@ header span {
   font-weight: bold;
   display: inline-block;
   position: relative;
-  top: 23px;
+  top: 25px;
 }
 
 header a {
@@ -24,12 +26,6 @@ header p {
 
 .big_container {
   display: flex;
-  position: relative;
-  top: 0px;
-  position: fixed;
-  width: 100%;
-  height: 75px;
-  border-bottom: 2px solid black;
 }
 
 .container {
@@ -89,24 +85,28 @@ header p {
   font-weight: bold;
   font-size: 30px;
   color: white;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
 }
 
 .column .large {
   width: 630px;
-  display: inline-flex;
+  display: inline-block;
   flex-direction: column;
 }
 
 .column .medium {
   width: 300px;
-  display: inline-flex;
+  display: inline-block;
   flex-direction: column;
 }
 
 .column .small {
   width: 240px;
-  display: inline-flex;
+  display: inline-block;
   flex-direction: column;
 }
 
@@ -159,18 +159,14 @@ footer .footer_container {
 }
 
 #cat {
-  background-image: url("../resources/images/img-myt-logo.jpg");
+  background-image: url("../../resources/images/img-story-1.png");
 }
 
 #tuna_steak {
-  background-image: url("../resources/images/img-story-main.png");
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  background-image: url("../../resources/images/img-story-main.png");
+  width: 630px;
   height: 300px;
-  margin-top: 0px;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  text-align: center;
+  margin-top: 150px;
+  text-align: left;
+  font-size: 40px;
 }
