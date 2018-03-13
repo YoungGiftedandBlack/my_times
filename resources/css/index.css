@@ -2,5 +2,23 @@
 /*text css ends here*/
 /*container css starts here*/
 /*container css ends here*/
-/* image css starts here*/
+/*image css starts here*/
 /*image css ends here*/
+/*body css starts here*/
+body {
+  padding: 0px;
+  margin: 0px;
+}
+/*body css ends here*/
+/*header css starts here*/
+}
+header {
+position: fixed;
+min-width: 100%;
+padding: 0;
+margin: 0;
+z-index: 10;
+}
+/*header css ends here*/
+/*footer css starts here*/
+/*footer css ends here*/
