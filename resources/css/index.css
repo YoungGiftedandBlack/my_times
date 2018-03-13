@@ -14,10 +14,29 @@ header a {
   border: 0px;
   color: black;
 }
-body .article_text span .caption{
-
+.caption_main {
+  font-size: 40px;
+  position: relative;
+  top: 75px;
 }
-
+.caption {
+  font-size: 30px;
+  position: relative;
+  top: 95px;
+}
+.caption, .caption_main {
+font-style: georgia;
+font-weight: bold;
+color: white;
+display: flex;
+text-align: center;
+align-items: center;
+width: 100%;
+}
+.overlay {
+  justify-content: center;
+  align-items: center;
+}
 /*text css ends here*/
 /*container css starts here*/
 /*container css ends here*/
@@ -63,8 +82,9 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  margin: 0px 5px;
   position: relative;
-  top: 82px;
+  top: 81px;
 }
 .large {
 width: 630px;
@@ -80,16 +100,16 @@ flex-direction: column;
 .split_1 {
   width: 300px;
   margin-top: 20px;
-  height: 300px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .split_2 {
   width: 300px;
   margin-top: 20px;
-  height: 300px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .medium {
   width: 300px;
@@ -100,9 +120,6 @@ flex-direction: column;
   width: 240px;
   display: flex;
   flex-direction: column;
-}
-.article_text {
-  border: 2px solid black;
 }
 #phishy {
   display: flex;
