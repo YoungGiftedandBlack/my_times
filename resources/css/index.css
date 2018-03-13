@@ -71,6 +71,26 @@ width: 630px;
 display: flex;
 flex-direction: column;
 }
+.large_split {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.split_1 {
+  width: 300px;
+  margin-top: 20px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.split_2 {
+  width: 300px;
+  margin-top: 20px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
 .medium {
   width: 300px;
   display: flex;
