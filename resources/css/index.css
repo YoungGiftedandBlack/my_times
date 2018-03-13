@@ -37,6 +37,15 @@ width: 100%;
   justify-content: center;
   align-items: center;
 }
+footer span {
+  display: inline-flex;
+  padding: 10px 20px;
+}
+footer a {
+  color: black;
+  font-size: 14px;
+  font-family: verdana;
+}
 /*text css ends here*/
 /*container css starts here*/
 /*container css ends here*/
@@ -50,7 +59,7 @@ body {
 }
 /*body css ends here*/
 /*header css starts here*/
-.header {
+header {
   position: fixed;
   width: 100%;
   height: 80px;
@@ -148,10 +157,16 @@ flex-direction: column;
 /*article css ends here*/
 /*footer css starts here*/
 footer {
-  display: flex;
+  width: 100%;
+  height: 200px;
+  padding: 0px;
+  margin: 0px;
+  display: inline-flex;
+  flex-direction: row;
+  background-color: mediumaquamarine;
   justify-content: center;
-  flex-direction: column;
+  align-items: center;
   position: relative;
-  top: 880px;
+  top: 79px;
 }
 /*footer css ends here*/
