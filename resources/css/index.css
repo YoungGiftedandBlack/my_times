@@ -46,9 +46,12 @@ footer a {
   font-size: 14px;
   font-family: verdana;
 }
+.small span {
+  font-family: verdana;
+  font-size: 12px;
+  color: dimgray;
+}
 /*text css ends here*/
-/*container css starts here*/
-/*container css ends here*/
 /*image css starts here*/
 /*image css ends here*/
 /*body css starts here*/
@@ -129,6 +132,11 @@ flex-direction: column;
   width: 240px;
   display: flex;
   flex-direction: column;
+}
+.small span {
+  background-color: whitesmoke;
+  border-top: 1px solid black;
+  display: block;
 }
 #phishy {
   display: flex;
